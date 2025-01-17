@@ -77,10 +77,18 @@
 
    ```env
    PORT = 4000
-   MONGODB_URI = mongodb://localhost:27017/IEEE-Mega-Project
+   MONGODB_URI = # Your MongoDB_URI
+
    MAIL_HOST = smtp.gmail.com
    MAIL_USER = # Your Email
    MAIL_PASS = # Your Email Password
+
+   JWT_SECRET = # Your JWT Secret
+   FOLDER_NAME = # Your Cloudinary Folder Name
+
+   CLOUD_NAME =  # Your Cloudinary Cloud Name
+   CLOUD_API_KEY = # Your Cloudinary API Key
+   CLOUD_API_SECRET = # Your Cloudinary API Secret
    ```
 
 4. **Start the Server and Client:**
